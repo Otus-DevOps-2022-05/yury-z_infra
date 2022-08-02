@@ -1,7 +1,7 @@
 {
-  "var_service_account_key_file": "{{env `YC_SERVICE_ACCOUNT_KEY_FILE`}}",
-  "var_folder_id": "{{env `YC_FOLDER_ID`}}",
-  "var_source_image_family": "{{env `IMAGE_FAMILY`}}",
+  "var_service_account_key_file": "key.json",
+  "var_folder_id": "setyourfolderidhere",
+  "var_source_image_family": "ubuntu-1604-lts",
   "var_preemptible": "true",
   "var_disk_size_gb": "10"
 }
